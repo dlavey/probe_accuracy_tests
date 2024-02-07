@@ -24,13 +24,13 @@ curl -sSL https://raw.githubusercontent.com/sporkus/probe_accuracy_tests/master/
 
 will clone/pull this repo and install the necessary python packages.
 
-## How to
+## How to Use
 
-Use `python3 ~/probe_accuracy_tests/probe_accuracy_test_suite.py --help` to see all the options.
+Use `~/probe_accuracy_tests/run_probe_accuracy_test_suite.sh --help` to see all the options.
 
 ### Tests
 
-* Run all three tests: `python3 ~/probe_accuracy_tests/probe_accuracy_test_suite.py`
+* Run all three tests: `~/probe_accuracy_tests/run_probe_accuracy_test_suite.sh`
 * Enable tests individually with `--corner`/`-c`, `--repeatability`/`-r`, `--drift`/`-d`
 * Test parameters can be further specified:
   * corner test, 10 samples each: `--corner 10`
